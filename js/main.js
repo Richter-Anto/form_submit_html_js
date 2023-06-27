@@ -10,7 +10,6 @@ function formValidation(e) {
     let address = document.getElementById("address").value;
     let city = document.getElementById("city").value;
     let Position = document.getElementById("Position").value;
-    // let address = document.getElementById("address").value;
     console.log(FirstName, lastName, email, address);
     localStorage.setItem("FirstName", FirstName);
     localStorage.setItem("lastName", lastName);
@@ -20,7 +19,7 @@ function formValidation(e) {
     localStorage.setItem("city", city);
     localStorage.setItem("Position", Position);
     console.log("Submitted");
-    window.alert("you have successfully applied for",)
+    window.alert(`you have successfully applied for ${Position}`);
 }
 
 function set_form() {
