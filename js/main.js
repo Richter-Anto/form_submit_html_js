@@ -5,7 +5,7 @@ function formValidation(e) {
     // let form_values = document.forms["registration"]["FirstName"].value;
     let FirstName = document.getElementById("FirstName").value;
     let lastName = document.getElementById("lastName").value;
-    let email = document.getElementById("email").value;
+    let email = document.getElementById("email ").value;
     let phone = document.getElementById("phone").value;
     let address = document.getElementById("address").value;
     let city = document.getElementById("city").value;
